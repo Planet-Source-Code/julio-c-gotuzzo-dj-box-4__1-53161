@@ -1,0 +1,112 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\DjBox4 Install
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+C:\SANSON\Dj Box 4\DjBox4.ini=
+C:\SANSON\Dj Box 4\Skins\Skins.dat=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\SANSON\Dj Box 4\DjBox4.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCTLES.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+C:\WINDOWS\SYSTEM\PCCLPES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\SANSON\Dj Box 4\DjBox4.ini=Yes
+C:\SANSON\Dj Box 4\Skins\Skins.dat=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\SANSON\Dj Box 4\DjBox4.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCTLES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PCCLPES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\SANSON\Dj Box 4\DjBox4.ini=$(AppPath)
+C:\SANSON\Dj Box 4\Skins\Skins.dat=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\SANSON\Dj Box 4\DjBox4.exe=No
+C:\SANSON\Dj Box 4\DjBox4.ini=No
+C:\SANSON\Dj Box 4\Skins\Skins.dat=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Dj Box 4
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Sanson Soft
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Sanson Soft]
+Icon1=DjBox4.exe
+Title1=Dj Box 4
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\DjBox4 Install
+ProjectFolder=C:\Archivos de programa\Microsoft Visual Studio\Proyectos\DJBOX4
+ServerSideCab=
+File1=C:\DjBox4 Install\setup.exe
+File2=C:\DjBox4 Install\Setup.Lst
+File3=C:\DjBox4 Install\DjBox41.CAB
+File4=C:\DjBox4 Install\DjBox42.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
